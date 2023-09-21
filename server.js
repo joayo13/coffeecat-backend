@@ -6,7 +6,7 @@ const cors = require("cors")
 app.use(express.json())
 app.use(
   cors({
-    origin: process.env.CLIENT_URL,
+    origin: 'https://650c82bb15f9031033edcaf9--warm-entremet-4c08b4.netlify.app/checkout',
   })
 )
 

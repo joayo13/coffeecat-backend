@@ -45,5 +45,6 @@ app.post("/create-checkout-session", async (req, res) => {
     res.status(500).json({ error: e.message })
   }
 })
+const port = process.env.PORT || 3000;
 
-app.listen(3100)
+app.listen(port)

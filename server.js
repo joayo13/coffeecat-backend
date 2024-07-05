@@ -46,6 +46,4 @@ app.post("/create-checkout-session", async (req, res) => {
   }
 })
 
-app.listen(3000, () => {
-  console.log(`Server is running on 3000`);
-});
+app.listen(3100)
